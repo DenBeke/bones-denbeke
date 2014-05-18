@@ -30,6 +30,17 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+
+		<!-- Include Pure framework: http://purecss.io/ -->
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/pure/base.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/pure/grids.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/pure/menus.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/pure/pure.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/pure/tables.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/pure/buttons.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/pure/forms.css" />
+
+
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
